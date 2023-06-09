@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">TicTacToe</h1>
+    <br>
+    <div id="score">
+        <span id="XScore">X- 0</span>
+        <span id="OScore">O- 0</span>
+    </div>
+    <div id="board">
+        <button id="btn1" class="tile" onclick="playerTurn('btn1')"></button>
+        <button id="btn2" class="tile" onclick="playerTurn('btn2')"></button>
+        <button id="btn3" class="tile" onclick="playerTurn('btn3')"></button>
+        <button id="btn4" class="tile" onclick="playerTurn('btn4')"></button>
+        <button id="btn5" class="tile" onclick="playerTurn('btn5')"></button>
+        <button id="btn6" class="tile" onclick="playerTurn('btn6')"></button>
+        <button id="btn7" class="tile" onclick="playerTurn('btn7')"></button>
+        <button id="btn8" class="tile" onclick="playerTurn('btn8')"></button>
+        <button id="btn9" class="tile" onclick="playerTurn('btn9')"></button>
+    </div>
+    <button class="rst" onclick="reset()">Reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
